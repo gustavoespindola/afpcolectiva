@@ -1,23 +1,20 @@
 # Site settings
-baseURL = "http://basico.io/"
+baseURL = "/"
 # HTML Language Code Reference, such as en, zh-cn
 languageCode = "en"
-title = "Basico"
+title = "AFP Colectiva"
 theme = "hugo-theme-cactus-plus"
 # Enter your tracking code to enable Google Analytics
 googleAnalytics = "UA-66919923-1"
 hasCJKLanguage = true
 
 [params]
-	name = "Basico.io"
-	description = "Blog Basico"
-	bio = "Haz lo que amas, vive tu sueño, comparte lo que te apasiona"
+	name = "AFP Colectiva"
+	description = "AFP Colectiva"
+	bio = "Haz crecer tu pensión, con transparencia, participación e inversión ética de tus fondos."
 	# Enter optionally your twitter account
 	twitter = "basico-io"
 	enableRSS = true
 
 # Enable googleAnalytics
 enableGoogleAnalytics = true
-
-	# Choose a font for the social icons in the footer. Either "mono-social" or "font-awesome"
-	iconFont = "font-awesome"
