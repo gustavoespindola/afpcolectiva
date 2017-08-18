@@ -1,0 +1,26 @@
+<div class="navbar">
+    <div class="container">
+      <a href="/" class="logotype">AFP Colectiva
+        </a><span>{{ $url := replace .Permalink .Site.BaseURL "" }}{{ if not .IsHome }}<a class="back"href='{{ .Site.BaseURL }}'>{{ with .Site.Params.home }}{{ . }}{{ else }}Volver{{ end }}</a>{{ end }}</span>
+        <!-- <a href="/top" class="router-link-exact-active router-link-active">Top</a><a href="/new" class="">New</a><a href="/show" class="">Show</a><a href="/ask" class="">Ask</a><a href="/job" class="">Jobs</a> -->
+    </div>
+  </div>
+
+<!-- <nav class="main-nav">
+	{{ $url := replace .Permalink .Site.BaseURL "" }}
+	{{ if not .IsHome }}
+		<a href='{{ .Site.BaseURL }}'> <span class="arrow">←</span>{{ with .Site.Params.home }}{{ . }}{{ else }}Home{{ end }}</a>
+	{{ end }}
+	<a href='{{ .Site.BaseURL }}post'>{{ with .Site.Params.archive }}{{ . }}{{ else }}Archive{{ end }}</a>
+	<a href='{{ .Site.BaseURL }}tags'>{{ with .Site.Params.tags }}{{ . }}{{ else }}Tags{{ end }}</a>
+	<a href='{{ .Site.BaseURL }}about'>{{ with .Site.Params.about }}{{ . }}{{ else }}About{{ end }}</a>
+
+	{{ range $key, $val := .Site.Params.Links }}
+		<a href="{{ $val }}">{{ $key }}</a>
+	{{ end }}
+
+	{{ if .Site.Params.enableRSS }}
+	<a class="cta" href="{{ .Site.RSSLink }}">{{ with .Site.Params.subscribe }}{{ . }}{{ else }}Subscribe{{ end }}</a>
+	{{ end }}
+</nav> -->
+
