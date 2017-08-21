@@ -116,21 +116,10 @@ height: 100%;
 }
 
 body {
-font: 16px/1 europa, "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #666;
+font-size: 20px;
+font-family: europa, "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #333;
 }
-
-h1 {
-font-size: 30px;
-letter-spacing: -1px;
-color: #222;
-font-weight: bold;
-}
-
-/*h2 {
-font: 19px/1.3em europa, "Helvetica Neue", Helvetica, Arial, sans-serif;
-color: #bbb;
-}*/
 
 .profile #wrapper {
 padding: 60px 40px 0px;
@@ -910,6 +899,12 @@ color: #666;
 color: #5694f1;
 }
 
+
+
+
+
+/*INIT*/
+/*AFP*/
 /*AFP*/
 .hide{
 display: none !important;
@@ -1009,6 +1004,9 @@ color: inherit;
 font-weight: 400;
 }
 
+
+
+
 /*AFP*/
 b{
 	font-weight: bold;
@@ -1028,6 +1026,7 @@ body, button, input, select, textarea {
 h1,h2,h3,h4,h5,h6{
 	color: inherit;
 }
+
 h2 {
   font-size: 1.7rem;
   font-weight: bold;
@@ -1057,6 +1056,7 @@ button{
 fieldset {
 	padding: 0;
 	border: 0;
+
 }
 i{
 	font-style: normal;
@@ -1302,4 +1302,84 @@ margin: 0 auto;
 }
 
 
+
+@media screen and (max-width: 768px) {
+	html, body{
+		font-style: 15px;
+	}
+	section.hero {
+	  padding: 0 0 2rem;
+	  text-align: center;
+	}
+	section.hero h1{
+		font-size: 1.5rem;
+		padding: 0 1rem;
+	}
+	section.explain .col{
+		display: block;
+		padding: 0 1rem;
+		max-width: 100%;
+		vertical-align: top;
+		text-align: center;
+	}
+	section.explain .h3 {
+	  padding: 1rem 0 2rem;
+	  display: block;
+	  text-align: center;
+	  line-height: 1.5rem;
+	  font-size: 1.2rem;
+	  font-weight: bold;
+	}
+	section.explain small {
+	  display: block;
+	  color: #808080;
+	  font-weight: bold;
+	  line-height: inherit;
+	  margin: 1rem 0 -1rem;
+	}
+	.promise {
+	  margin: 0rem 0 0;
+	}
+	section.explain i {
+	  font-style: normal;
+	  font-size: 3.5rem;
+	  display: inline-block;
+	  vertical-align: baseline;
+	  margin-top: 2rem;
+	}
+	section.crowdfunding {
+		text-align: left;
+		padding: 1rem;
+	}
+	section.crowdfunding h2{
+		font-size: 1.5rem;
+		padding: 0 1rem;
+	}
+	section.crowdfunding small {
+	  display: block;
+	  margin: 1rem;
+	  font-size: 1rem;
+	}
+	section.crowdfunding a.button {
+	  margin: 1rem;
+	}
+	section.todos {
+	  padding: 2rem;
+	  text-align: left;
+	}
+	section.newsletter {
+	  text-align: center;
+	  padding: 2rem;
+	  color: #fff;
+	}
+	section.newsletter h2 {
+	  font-size: 1.5rem;
+	  font-weight: bold;
+	  margin-bottom: 1rem;
+	}
+	section.end {
+	  padding: 2rem;
+	  text-align: center;
+	}
+}
 
